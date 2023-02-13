@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial;
+ }
+
+.h {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {  
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.box {
+    background-color: rgb(253, 172, 49);
+    width: 26%;  
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.choose {
+    display: inline-block;
+}
+
+.btn-input-log {
+    margin-bottom: 1em;
+    padding: 0 60px 105px;
+    border-radius: 10px; 
+    background-color: white; 
+    border: 1px solid black;
+}
+.btn-input-cad {
+    margin-bottom: 1em;
+    padding: 0 60px 105px;
+    border-radius: 10px; 
+    background-color: white; 
+    border: 1px solid black;
+}
+
+.box-form {
+    /* height: 100vh; */
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+ .box-login {
+    display: none;
+    width: 550px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    padding: 2%;
+}
+ 
+.form {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#eye {
+    color: #333;
+
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    margin-top: -45px;
+    padding: 15px 9px 19px 0px;
+
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
+
+    cursor: pointer;
+    display: block;
+}
+
+#eyeClose {
+    color: #333;
+    
+    margin: 5.9px 0 0 0;
+    margin-left: -20px;
+    margin-top: -45px;
+    padding: 15px 9px 19px 0px;
+    
+    float: right;
+    position: relative;
+    right: 1%;
+    top: -.2%;
+    z-index: 5;
+    
+    cursor: pointer;
+    display: none;
+}
+/* Input form */
+input[class='estiloInput'] {
+    width: 240px;
+    height: 40px;
+
+    margin-top: 2%;
+    padding: 15px;
+
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+
+    
+    border: 2px solid rgb(0, 0, 0);
+
+    border-radius: 6px;
+}
+
+input:focus {
+    border-radius: 5px;
+}
+
+input[class='enviar']:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+
+/* Fim do Input form */
+
+.box-cadastro {
+    display: none;
+}
+
+.esconder {
+    display: block;
+}
+
+.enviar {
+    width: 240px;
+    height: 30px;
+    display: inline-block;
+    color: #252537;
+    float: left;
+    padding: 0 20px;
+    outline: none;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    position: absolute;
+    width: 110px;
+}
+
+#estuda {
+    margin-left: 6px;
+    margin-top: 12px;
+}
+
+#prof {
+    margin-left: 6px;
+    margin-top: 9px;
+}
